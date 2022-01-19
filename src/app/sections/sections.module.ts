@@ -5,11 +5,15 @@ import { SectionsRoutingModule } from './sections-routing.module';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SkillsComponent } from './skills/skills.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
 
 @NgModule({
   declarations: [
-    AboutMeComponent
+    AboutMeComponent,
+    SkillsComponent,
+    WorkExperienceComponent
   ],
   imports: [
     CommonModule,
@@ -19,6 +23,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   exports: [
     AboutMeComponent,
+    SkillsComponent,
+    WorkExperienceComponent
   ]
 })
 export class SectionsModule { }
