@@ -22,19 +22,19 @@
   }
 
   .github {
-    color: black;
+    color: $githubColor;
   }
 
   .gmail {
-    color: red;
+    color: $gmailColor;
   }
 
   .facebook {
-    color: rgb(76, 0, 255);
+    color: $facebookColor;
   }
 
   .linkedin {
-    color: rgb(37, 37, 138);
+    color: $linkedinColor;
   }
 
   i:hover {
