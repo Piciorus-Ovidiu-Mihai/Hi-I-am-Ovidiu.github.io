@@ -8,7 +8,7 @@
 
   .skill-icon {
     font-size: 80px;
-    color: gray;
+    color: $grayColor;
   }
 
   .list-pointer {
@@ -22,19 +22,19 @@
     padding-bottom: 5%;
 
     i:hover {
-      color: black;
+      color: $blackColor;
       cursor: pointer;
     }
 
     span:hover {
-      color: black;
+      color: $blackColor;
       cursor: pointer;
     }
   }
 
   .skills-list {
     span {
-      color: aliceblue;
+      color: $textColorWhite;
       font-size: x-large;
     }
   }
@@ -43,14 +43,14 @@
     font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: aliceblue;
+    color: $textColorWhite;
   }
 
   p {
-    color: aliceblue;
+    color: $textColorWhite;
   }
 
   span {
-    color: gray;
+    color: $grayColor;
   }
 }
