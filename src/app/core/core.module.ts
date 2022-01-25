@@ -3,17 +3,18 @@ import { CommonModule } from '@angular/common';
 
 import { CoreRoutingModule } from './core-routing.module';
 import { CoreComponent } from './core.component';
-import { LayoutComponent } from '../layout/layout.component';
 import { HeaderComponent } from '../layout/header/header.component';
 import { SectionsModule } from '../sections/sections.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MainComponent } from '../layout/main/main.component';
 
 
 @NgModule({
   declarations: [
     CoreComponent,
-    LayoutComponent,
+    MainComponent,
     HeaderComponent,
+    MainComponent,
   ],
   imports: [
     CommonModule,

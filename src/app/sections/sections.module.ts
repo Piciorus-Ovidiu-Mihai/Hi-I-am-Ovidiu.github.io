@@ -7,24 +7,29 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
-
+import { ProjectsComponent } from './projects/projects.component';
+import { OpenSourceComponent } from './open-source/open-source.component';
 
 @NgModule({
   declarations: [
     AboutMeComponent,
     SkillsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    ProjectsComponent,
+    OpenSourceComponent,
   ],
   imports: [
     CommonModule,
     SectionsRoutingModule,
     FlexLayoutModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   exports: [
     AboutMeComponent,
     SkillsComponent,
-    WorkExperienceComponent
-  ]
+    WorkExperienceComponent,
+    ProjectsComponent,
+    OpenSourceComponent,
+  ],
 })
-export class SectionsModule { }
+export class SectionsModule {}

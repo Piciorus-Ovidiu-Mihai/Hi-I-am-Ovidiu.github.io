@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LayoutComponent } from './layout.component';
+import { OpenSourceComponent } from './open-source.component';
 
-describe('LayoutComponent', () => {
-  let component: LayoutComponent;
-  let fixture: ComponentFixture<LayoutComponent>;
+describe('OpenSourceComponent', () => {
+  let component: OpenSourceComponent;
+  let fixture: ComponentFixture<OpenSourceComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LayoutComponent ]
+      declarations: [ OpenSourceComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LayoutComponent);
+    fixture = TestBed.createComponent(OpenSourceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

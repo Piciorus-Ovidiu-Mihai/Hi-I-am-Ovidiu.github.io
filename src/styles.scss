@@ -1,7 +1,13 @@
+@import './globalColor';
+
 .full-width{
     width: 100%;
 }
 
 .full-height{
     height: 100%;
+}
+
+.body-container{
+    background-color: $darkBackground;
 }
