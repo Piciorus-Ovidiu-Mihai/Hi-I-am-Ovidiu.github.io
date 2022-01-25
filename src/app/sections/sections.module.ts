@@ -9,6 +9,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { OpenSourceComponent } from './open-source/open-source.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { OpenSourceComponent } from './open-source/open-source.component';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     SectionsRoutingModule,
     FlexLayoutModule,
     FontAwesomeModule,
