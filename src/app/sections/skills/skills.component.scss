@@ -1,12 +1,56 @@
-.container-skills{
-    padding-top: 8%;
-    padding-left: 10%;
-}
+@import "../../../_globalColor";
 
-h1{
-    color: aliceblue;
-}
+.skills-container {
+  .short-description {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
-p{
+  .skill-icon {
+    font-size: 80px;
+    color: gray;
+  }
+
+  .list-pointer {
+    color: $boltColor;
+    font-size: x-large;
+    cursor: pointer;
+  }
+
+  .icons-skills-list{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    i:hover {
+      color: black;
+      cursor: pointer;
+    }
+
+    span:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+
+  .skills-list {
+    span {
+      color: aliceblue;
+      font-size: x-large;
+    }
+  }
+
+  h1 {
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     color: aliceblue;
+  }
+
+  p {
+    color: aliceblue;
+  }
+
+  span {
+    color: gray;
+  }
 }

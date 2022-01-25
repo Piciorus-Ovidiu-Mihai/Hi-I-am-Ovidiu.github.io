@@ -55,7 +55,7 @@ const aboutMe = {
   lineOne:
     'I am an enthusiast software developer focusing on full-stack development.',
   lineTwo:
-    'Computer Science is fascinating and I spend a lot of my spare time learning new technologies in programming.',
+    ' SciencComputere is fascinating and I spend a lot of my spare time learning new technologies in programming.',
   lineThree:
     'At the moment I work as a Full Stack Developer, primarily using Angular and .NET Core.',
 };
@@ -64,6 +64,28 @@ const facebookLink = 'https://www.facebook.com/ovidiu.mihai.353';
 const linkedinLink = 'https://www.linkedin.com/in/ovidiu-mihai-picioru%C8%99-a0793b19b/';
 const gmailLink = 'https://mail.google.com/mail/?view=cm&fs=1&to=piciorus.ovidiu.mihai@gmail.com';
 const githubLink = 'https://github.com/Piciorus-Ovidiu-Mihai';
+
+const skills = {
+  title: 'What I do ?',
+  subTitle: "FULL-STACK DEVELOPER WHO LIKES TO BUILD SCALABLE WEB APPLICATION",
+  skillsList: [
+    {
+      info: "Develop scalable web application using Angular and .NET technologies"
+    },
+    {
+      info: "Build reponsive UI"
+    },
+    {
+      info: "Integration of third party services such as Firebase"
+    },
+    {
+      info: "Building mobile application using Android"
+    },
+    {
+      info: "Highly organized, attention to detail, problem-solving"
+    }
+  ]
+}
 
 export {
   developerTitleName,
@@ -74,4 +96,5 @@ export {
   linkedinLink,
   gmailLink,
   githubLink,
+  skills
 };

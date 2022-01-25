@@ -2,22 +2,47 @@
   <div>
     <img src="../../../assets/photos/skills.PNG" />
   </div>
-  <div fxLayout="column">
-    <h1>What I do ?</h1>
-    <p>
-      Front-end development using Typescript, Angular, Javascript, SASS, CSS,
-      HTML
+  <div class="skills-container" fxLayout="column" fxLayoutGap="2%" fxLayoutAlign="start">
+    <h1>{{skills.title}}</h1>
+
+    <p class="short-description">
+      {{skills.subTitle}}
     </p>
-    <p>
-      Building REST API using .NET Core, Entity Framework, ASP.NET MVC, Spring
-      Boot
-    </p>
-    <p>Database management tools such as MySQL, SQL Server Management</p>
-    <p>Knowledge in mobile development using Java, Firebase, Retrofit</p>
-    <p>Good understanding of OOP concepts</p>
-    <p>
-      Highly organized, attention to detail, problem-solving & good
-      communication skills
-    </p>
+
+    <div class="icons-skills-list" fxLayout="row wrap" fxLayoutGap="4%" fxLayout="center center">
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <i class="fab fa-angular skill-icon"></i>
+        <span>Angular</span>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <i class="fab fa-sass skill-icon"></i>
+        <span>SCSS</span>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <i class="fab fa-microsoft skill-icon"></i>
+        <span>.NET Core</span>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <i class="fab fa-js skill-icon"></i>
+        <span>Javascript</span>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <i class="fab fa-html5 skill-icon"></i>
+        <span>HTML</span>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <i class="far fa-file-code skill-icon"></i>
+        <span>Typescript</span>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <i class="fas fa-database skill-icon"></i>
+        <span>SQL</span>
+      </div>
+    </div>
+
+    <div class="skills-list" *ngFor="let item of skills.skillsList" fxLayout="row" fxLayoutGap="2%">
+      <i class="fas fa-bolt list-pointer"></i>
+      <span>{{item.info}}</span>
+    </div>
   </div>
 </div>
