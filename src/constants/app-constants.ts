@@ -48,6 +48,14 @@ const hrefHeaderButtons = [
   {
     ref: 'contact-me',
   },
-]
+];
 
-export { developerTitleName,headerButtons,hrefHeaderButtons };
+const aboutMe = {
+  title: 'Hi, I am Ovidiu!',
+  lineOne:
+    'I am an enthusiast software developer focusing on full-stack development.',
+  lineTwo: 'Computer Science is fascinating and I spend a lot of my spare time learning new technologies in programming.',
+  lineThree: 'At the moment I work as a Full Stack Developer, primarily using Angular and .NET Core.',
+};
+
+export { developerTitleName, headerButtons, hrefHeaderButtons, aboutMe };

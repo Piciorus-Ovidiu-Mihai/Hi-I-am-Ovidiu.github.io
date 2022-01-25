@@ -1,29 +1,26 @@
 <div
   fxLayout="row"
-  fxLayoutAlign="center"
   fxLayoutGap="8%"
-  class="full-width container-section"
+  class="full-width about-me-container"
 >
   <div fxLayout="column">
     <div>
-      <h1>Hi, I am Ovidiu !</h1>
-
+      <h1>{{aboutMeInfo.title}}</h1>
       <p>
-        I am an enthusiast software developer focusing on full-stack
-        development.
+        {{aboutMeInfo.lineOne}}
       </p>
       <p>
-        Computer Science is fascinating and I spend a lot of my spare time
-        learning new technologies in programming.
+        {{aboutMeInfo.lineTwo}}
       </p>
       <p>
-        At the moment I work as a Full Stack Developer, primarily using Angular
-        and .NET Core.
+        {{aboutMeInfo.lineThree}}
       </p>
     </div>
-    <div fxLayout="row" fxLayoutGap="3%">
-      <fa-icon class="icon-link" [icon]="github"></fa-icon>
-      <fa-icon class="icon-link" [icon]="linkedin"></fa-icon>
+    <div fxLayout="row" fxLayoutGap="2%">
+      <i class="fab fa-github icon-link github"></i>
+      <i class="fab fa-linkedin icon-link facebook"></i>
+      <i class="fab fa-facebook icon-link facebook"></i>
+      <i class="fas fa-envelope icon-link gmail"></i>
     </div>
   </div>
   <div>

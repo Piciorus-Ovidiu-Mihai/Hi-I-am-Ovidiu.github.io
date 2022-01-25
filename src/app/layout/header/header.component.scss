@@ -10,6 +10,7 @@
 
   li a:hover {
     background-color: $buttonColor !important;
+    border-radius: 10%;
   }
 
   li a {
@@ -27,7 +28,7 @@
     display: block;
     flex: none;
     float: left;
-    font-size: 1.5em;
+    font-size: 1.9em;
     text-decoration: none;
     margin-top: 10px;
     line-height: normal;
@@ -51,12 +52,15 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   li a {
     display: block;
     padding: 15px 20px;
-    color: $textColor;
+    color: $textColorWhite;
     text-decoration: none;
   }
 
