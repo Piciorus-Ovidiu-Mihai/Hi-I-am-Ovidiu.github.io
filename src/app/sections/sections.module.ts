@@ -10,6 +10,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { ProjectsComponent } from './projects/projects.component';
 import { OpenSourceComponent } from './open-source/open-source.component';
 import { FormsModule } from '@angular/forms';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FormsModule } from '@angular/forms';
     WorkExperienceComponent,
     ProjectsComponent,
     OpenSourceComponent,
+    ContactMeComponent,
   ],
   imports: [
     CommonModule,

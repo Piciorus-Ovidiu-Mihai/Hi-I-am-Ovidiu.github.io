@@ -18,9 +18,9 @@ const headerButtons = [
   {
     title: 'Open source',
   },
-  {
-    title: 'Blogs',
-  },
+  // {
+  //   title: 'Blogs',
+  // },
   {
     title: 'Contact me',
   },
@@ -42,9 +42,9 @@ const hrefHeaderButtons = [
   {
     ref: 'open-source',
   },
-  {
-    ref: 'blogs',
-  },
+  // {
+  //   ref: 'blogs',
+  // },
   {
     ref: 'contact-me',
   },
@@ -99,18 +99,65 @@ const workExperienceSection = {
       jobTitle: 'Full-stack developer',
     },
     {
-      title: 'AROBS Software',
+      title: 'The Code Crowd',
       description: '.NET FULL-STACK student program',
       timeRange: 'Jul 2021 - Aug 2022',
       jobTitle: 'Full-stack developer',
     },
     {
-      title: 'AROBS Software',
+      title: 'GEP Worldwide',
       description: '.NET FULL-STACK student program',
       timeRange: 'Jul 2021 - Aug 2022',
       jobTitle: 'Full-stack developer',
     },
   ],
+};
+
+const personalProjects = {
+  title: 'Personal Projects',
+  projects: [
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+  ],
+};
+
+const openSourceProjects = {
+  title: 'Open Source',
+  projects: [
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+  ],
+};
+
+const contactMe = {
+  title: 'Contact me',
+  description: "",
+  info: {
+    phoneNumber: '0732378913',
+    emailAddress: 'piciorus.ovidiu.mihai@gmail.com',
+    linkedinAccount: '',
+    facebookAccount: '',
+  },
 };
 
 export {
@@ -123,5 +170,7 @@ export {
   gmailLink,
   githubLink,
   skills,
-  workExperienceSection
+  workExperienceSection,
+  personalProjects,
+  openSourceProjects,
 };

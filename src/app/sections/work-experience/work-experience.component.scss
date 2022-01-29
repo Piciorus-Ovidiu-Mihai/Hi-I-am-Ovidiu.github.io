@@ -5,3 +5,29 @@
     color: $textColorWhite;
   }
 }
+
+.work-experience-card {
+  width: 40vh;
+  height: 40vh;
+  border: 5px solid white;
+  text-align: center;
+
+  h1 {
+    padding-bottom: 20%;
+  }
+
+  h3 {
+    color: $textColorWhite;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: $textColorWhite;
+  }
+
+  p {
+    color: $textColorWhite;
+  }
+}
