@@ -1,7 +1,22 @@
 @import "../../../_globalColor";
 
 .education-container {
+  margin-left: 5%;
   h1 {
+    color: $textColorWhite;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 5%;
+  }
+}
+
+.education-info-container {
+  h1 {
+    color: $textColorWhite;
+  }
+  h2 {
     color: $textColorWhite;
   }
 }

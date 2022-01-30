@@ -1,3 +1,11 @@
-<div class="contact-me-container" fxLayout="column" fxLayoutAlign="center center">
-    <h1>{{contactMe.title}}</h1>
+<div class="contact-me-container" fxLayout="column" fxLayoutAlign="start">
+  <h1>{{ contactMe.title }}</h1>
+  <h2>{{ contactMe.description }}</h2>
+  <i class="fas fa-map-marker-alt"> {{ contactMe.info.location }}</i>
+  <div fxLayout="row" fxLayoutGap="2%">
+    <i (click)="goToGithub()" class="fab fa-github icon-link github"></i>
+    <i (click)="goToLinkedin()" class="fab fa-linkedin icon-link linkedin"></i>
+    <i (click)="goToFacebook()" class="fab fa-facebook icon-link facebook"></i>
+    <i (click)="goToGmail()" class="fas fa-envelope icon-link gmail"></i>
+  </div>
 </div>

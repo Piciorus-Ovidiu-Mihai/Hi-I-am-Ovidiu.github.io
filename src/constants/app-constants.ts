@@ -175,31 +175,13 @@ const educationSection = {
   title: 'Education',
   educationList: [
     {
-      title: 'Tehnical University',
+      title: 'Technical University',
       subTitle: 'Automatics and Applied Informatics',
       dateRange: 'Oct 2018 - Jul 2021',
-      description: 'Enigneer',
+      description: 'Took courses about programming',
     },
     {
-      title: 'Tehnical University',
-      subTitle: 'Automatics and Applied Informatics',
-      dateRange: 'Oct 2018 - Jul 2021',
-      description: 'Enigneer',
-    },
-    {
-      title: 'Tehnical University',
-      subTitle: 'Automatics and Applied Informatics',
-      dateRange: 'Oct 2018 - Jul 2021',
-      description: 'Enigneer',
-    },
-    {
-      title: 'Tehnical University',
-      subTitle: 'Automatics and Applied Informatics',
-      dateRange: 'Oct 2018 - Jul 2021',
-      description: 'Enigneer',
-    },
-    {
-      title: 'Tehnical University',
+      title: 'Technical University',
       subTitle: 'Automatics and Applied Informatics',
       dateRange: 'Oct 2018 - Jul 2021',
       description: 'Enigneer',
@@ -209,8 +191,9 @@ const educationSection = {
 
 const contactMe = {
   title: 'Contact me',
-  description: '',
+  description: 'Do you want to discuss with me about a project or just to ask me anything? My imbox is 24/24 open.',
   info: {
+    location: 'Cluj-Napoca,Cluj,Romania',
     phoneNumber: '0732378913',
     emailAddress: 'piciorus.ovidiu.mihai@gmail.com',
     linkedinAccount: '',
@@ -232,5 +215,5 @@ export {
   personalProjects,
   openSourceProjects,
   contactMe,
-  educationSection
+  educationSection,
 };

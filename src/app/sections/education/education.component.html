@@ -1,4 +1,12 @@
-<div fxLayout="column" fxLayoutAlign="center center" class="education-container">
+<div fxLayout="column" fxLayoutAlign="start" class="education-container">
     <h1>{{educationSection.title}}</h1>
-
+    <div *ngFor="let educationItem of educationSection.educationList" fxLayout="row" fxLayoutGap="1%">
+        <img src="../../../assets/photos/utcn-logo.jpg">
+        <div class="education-info-container">
+            <h1>{{educationItem.title}}</h1>
+            <h2>{{educationItem.subTitle}}</h2>
+            <h3>{{educationItem.dateRange}}</h3>
+            <h4>{{educationItem.description}}</h4>
+        </div>
+    </div>
 </div>

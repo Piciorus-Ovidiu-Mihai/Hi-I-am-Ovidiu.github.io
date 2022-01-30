@@ -1,7 +1,34 @@
 @import "../../../_globalColor";
 
 .contact-me-container {
+  padding-left: 2%;
   h1 {
     color: $textColorWhite;
   }
+}
+
+
+.icon-link {
+  font-size: 50px;
+}
+
+.github {
+  color: $githubColor;
+}
+
+.gmail {
+  color: $gmailColor;
+}
+
+.facebook {
+  color: $facebookColor;
+}
+
+.linkedin {
+  color: $linkedinColor;
+}
+
+i:hover {
+  color: $hover;
+  cursor: pointer;
 }
