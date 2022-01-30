@@ -1,29 +1,24 @@
-<div
-  fxLayout="row"
-  fxLayoutGap="8%"
-  class="full-width about-me-container"
->
-  <div fxLayout="column">
-    <div>
-      <h1>{{aboutMeInfo.title}}</h1>
-      <p>
-        {{aboutMeInfo.lineOne}}
-      </p>
-      <p>
-        {{aboutMeInfo.lineTwo}}
-      </p>
-      <p>
-        {{aboutMeInfo.lineThree}}
-      </p>
+<div class="full-width about-me-container" fxLayout="row" fxLayoutGap="8%">
+  <div fxFlex fxLayout="column">
+    <h1>{{ aboutMeSection.title }}</h1>
+    <div class="description-container" fxLayout="column">
+      <span>{{ aboutMeSection.description }}</span>
     </div>
     <div fxLayout="row" fxLayoutGap="2%">
       <i (click)="goToGithub()" class="fab fa-github icon-link github"></i>
-      <i (click)="goToLinkedin()" class="fab fa-linkedin icon-link linkedin"></i>
-      <i (click)="goToFacebook()" class="fab fa-facebook icon-link facebook"></i>
+      <i
+        (click)="goToLinkedin()"
+        class="fab fa-linkedin icon-link linkedin"
+      ></i>
+      <i
+        (click)="goToFacebook()"
+        class="fab fa-facebook icon-link facebook"
+      ></i>
       <i (click)="goToGmail()" class="fas fa-envelope icon-link gmail"></i>
     </div>
+    <button>{{aboutMeSection.buttonTittle}}</button>
   </div>
-  <div>
+  <div fxFlex>
     <img src="../../../assets/photos/animated-hi.PNG" />
   </div>
 </div>

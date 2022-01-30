@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { developerTitleName, headerButtons, hrefHeaderButtons } from 'src/constants/app-constants';
+import { developerTitleName, headerMenuButtons } from 'src/constants/app-constants';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,8 +7,7 @@ import { developerTitleName, headerButtons, hrefHeaderButtons } from 'src/consta
 })
 export class HeaderComponent {
   developerName = developerTitleName.name;
-  headerButtonsTitles = headerButtons;
-  hrefs = hrefHeaderButtons;
+  headerMenuButtons = headerMenuButtons;
 
   getHref(ref: string){
     return `#${ref}`;

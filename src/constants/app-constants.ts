@@ -2,62 +2,42 @@ const developerTitleName = {
   name: 'Ovidiu',
 };
 
-const headerButtons = [
+const headerMenuButtons = [
   {
     title: 'About me',
-  },
-  {
-    title: 'Skills',
-  },
-  {
-    title: 'Work experience',
-  },
-  {
-    title: 'Projects',
-  },
-  {
-    title: 'Open source',
-  },
-  // {
-  //   title: 'Blogs',
-  // },
-  {
-    title: 'Contact me',
-  },
-];
-
-const hrefHeaderButtons = [
-  {
     ref: 'me',
   },
   {
+    title: 'Skills',
     ref: 'skills',
   },
   {
+    title: 'Education',
+    ref: 'education',
+  },
+  {
+    title: 'Work experience',
     ref: 'experience',
   },
   {
+    title: 'Projects',
     ref: 'projects',
   },
   {
+    title: 'Open source',
     ref: 'open-source',
   },
-  // {
-  //   ref: 'blogs',
-  // },
   {
+    title: 'Contact me',
     ref: 'contact-me',
   },
 ];
 
-const aboutMe = {
+const aboutMeSection = {
   title: 'Hi, I am Ovidiu!',
-  lineOne:
-    'I am an enthusiast software developer focusing on full-stack development.',
-  lineTwo:
-    ' SciencComputere is fascinating and I spend a lot of my spare time learning new technologies in programming.',
-  lineThree:
-    'At the moment I work as a Full Stack Developer, primarily using Angular and .NET Core.',
+  description:
+    'An enthusiast Full Stack software developer having an experience of building Web and Mobile applications using JavaScript, Angular, .NET Core, Spring Boot, HTML, CSS, SQL, Firebase, Java, Android and other nice tools.',
+  buttonTittle: "See my resume"
 };
 
 const facebookLink = 'https://www.facebook.com/ovidiu.mihai.353';
@@ -191,7 +171,8 @@ const educationSection = {
 
 const contactMe = {
   title: 'Contact me',
-  description: 'Do you want to discuss with me about a project or just to ask me anything? My imbox is 24/24 open.',
+  description:
+    'Do you want to discuss with me about a project or just to ask me anything? My imbox is 24/24 open.',
   info: {
     location: 'Cluj-Napoca,Cluj,Romania',
     phoneNumber: '0732378913',
@@ -203,9 +184,8 @@ const contactMe = {
 
 export {
   developerTitleName,
-  headerButtons,
-  hrefHeaderButtons,
-  aboutMe,
+  headerMenuButtons,
+  aboutMeSection,
   facebookLink,
   linkedinLink,
   gmailLink,

@@ -5,8 +5,8 @@
     <span class="grey-color">/&gt;</span>
   </a>
   <ul class="dark-menu">
-    <li *ngFor="let item of headerButtonsTitles;let i = index;">
-      <a href="#{{hrefs[i].ref}}">{{item.title}}</a>
+    <li *ngFor="let item of headerMenuButtons;">
+      <a href="#{{item.ref}}">{{item.title}}</a>
     </li>
   </ul>
 </header>

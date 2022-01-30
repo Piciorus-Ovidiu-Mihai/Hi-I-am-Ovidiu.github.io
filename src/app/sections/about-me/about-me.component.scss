@@ -5,16 +5,26 @@
   padding-bottom: 8%;
   padding-left: 8%;
 
-  p {
-    color: $textColorWhite;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .description-container {
+    span {
+      color: $textColorWhite;
+      font-size: 1.7em;
+      font-family: $textFont;
+      font-weight: lighter;
+      padding-bottom: 2%;
+    }
   }
 
+  button {
+    width: 40%;
+    height: 10%;
+  }
+  
   h1 {
     color: $textColorWhite;
     font-size: xxx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $titlesFont;
+    margin-bottom: 2%;
   }
 
   .icon-link {

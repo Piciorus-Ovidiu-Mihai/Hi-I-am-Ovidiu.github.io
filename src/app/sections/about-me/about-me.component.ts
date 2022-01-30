@@ -5,7 +5,7 @@ import {
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
-import { aboutMe, facebookLink, githubLink, gmailLink, linkedinLink } from 'src/constants/app-constants';
+import { aboutMeSection, facebookLink, githubLink, gmailLink, linkedinLink } from 'src/constants/app-constants';
 
 @Component({
   selector: 'app-about-me',
@@ -15,7 +15,7 @@ import { aboutMe, facebookLink, githubLink, gmailLink, linkedinLink } from 'src/
 export class AboutMeComponent {
   github = faGithub;
   linkedin = faLinkedin;
-  aboutMeInfo = aboutMe;
+  aboutMeSection = aboutMeSection;
 
   goToGithub() {
     window.open(githubLink);

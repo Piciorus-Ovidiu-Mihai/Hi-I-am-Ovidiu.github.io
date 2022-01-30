@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import {
-  aboutMe,
+  aboutMeSection,
   contactMe,
   facebookLink,
   githubLink,
@@ -18,7 +18,7 @@ export class ContactMeComponent {
   contactMe = contactMe;
   github = faGithub;
   linkedin = faLinkedin;
-  aboutMeInfo = aboutMe;
+  aboutMeInfo = aboutMeSection;
 
   goToGithub() {
     window.open(githubLink);
