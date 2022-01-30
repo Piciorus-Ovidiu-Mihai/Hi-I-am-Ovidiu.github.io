@@ -37,7 +37,8 @@ const aboutMeSection = {
   title: 'Hi, I am Ovidiu!',
   description:
     'An enthusiast Full Stack software developer having an experience of building Web and Mobile applications using JavaScript, Angular, .NET Core, Spring Boot, HTML, CSS, SQL, Firebase, Java, Android and other nice tools.',
-  buttonTittle: "See my resume"
+  buttonTittle: "See my resume",
+  resumeLink: "https://accounts.google.com/ServiceLogin/webreauth?service=wise&passive=1209600&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fu%2F2%2Ffolders%2F1W2qI9XFsLSIkb-_RCIs04Bho2B2jipG4&followup=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fu%2F2%2Ffolders%2F1W2qI9XFsLSIkb-_RCIs04Bho2B2jipG4&authuser=2&flowName=GlifWebSignIn&flowEntry=ServiceLogin",
 };
 
 const facebookLink = 'https://www.facebook.com/ovidiu.mihai.353';

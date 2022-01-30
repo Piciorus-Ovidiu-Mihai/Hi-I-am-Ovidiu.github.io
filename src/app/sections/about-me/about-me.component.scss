@@ -16,10 +16,21 @@
   }
 
   button {
-    width: 40%;
+    margin-top: 2%;
+    width: 30%;
     height: 10%;
+    background-color: $resumeButtonColor;
+    border-radius: 10px;
+    color: $textColorWhite;
+    font-family: $titlesFont;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
   }
-  
+
   h1 {
     color: $textColorWhite;
     font-size: xxx-large;

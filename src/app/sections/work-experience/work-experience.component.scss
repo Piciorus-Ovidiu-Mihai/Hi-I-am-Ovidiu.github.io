@@ -7,13 +7,13 @@
 }
 
 .work-experience-card {
-  width: 40vh;
-  height: 40vh;
+  width: 60vh;
+  height: 50vh;
   border: 1px solid $borderColor;
   text-align: center;
-  background-color: $cardWorkExperienceColor;
+  background-color: $darkBackground;
   border-radius: 10px;
-
+ 
   h1 {
     padding-bottom: 20%;
   }
@@ -32,4 +32,65 @@
   p {
     color: $textColorWhite;
   }
+}
+
+
+.experience-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background: $experienceCardBannerLG;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.experience-blurred_div {
+  position: absolute;
+  background: $experienceCardBlurredDivLG;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  height: 11rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.experience-div-company {
+  position: absolute;
+  background: transparent;
+  height: 9rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  font-size: 50px;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem red;
+  border-radius: 50%;
 }

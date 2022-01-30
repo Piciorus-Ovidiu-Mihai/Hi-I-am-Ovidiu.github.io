@@ -32,4 +32,8 @@ export class AboutMeComponent {
   goToGmail() {
     window.open(gmailLink);
   }
+
+  goToMyResume(){
+    window.open(aboutMeSection.resumeLink);
+  }
 }

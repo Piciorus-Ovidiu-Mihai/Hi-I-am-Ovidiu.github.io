@@ -16,7 +16,9 @@
       ></i>
       <i (click)="goToGmail()" class="fas fa-envelope icon-link gmail"></i>
     </div>
-    <button>{{aboutMeSection.buttonTittle}}</button>
+    <button (click)="goToMyResume()">
+      {{ aboutMeSection.buttonTittle }}
+    </button>
   </div>
   <div fxFlex>
     <img src="../../../assets/photos/animated-hi.PNG" />

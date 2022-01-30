@@ -5,11 +5,22 @@
 >
   <h1>{{ workExperience.title }}</h1>
   <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="3%">
-    <div fxLayout="column" *ngFor="let card of workExperience.jobsInfo" class="work-experience-card">
-      <h1>{{card.title}}</h1>
-      <h3>{{card.timeRange}}</h3>
-      <span>{{card.jobTitle}}</span>
-      <p>{{card.description}}</p>
+    <div
+      fxLayout="column"
+      *ngFor="let card of workExperience.jobsInfo"
+      class="work-experience-card"
+    >
+      <div class="experience-banner">
+        <div class="experience-blurred_div"></div>
+        <div class="experience-div-company">
+          <h5 class="experience-text-company">{{card.title}}</h5>
+        </div>
+
+        <i class="fas fa-code icon"></i>
+      </div>
+      <!-- <h3>{{ card.timeRange }}</h3>
+      <span>{{ card.jobTitle }}</span>
+      <p>{{ card.description }}</p> -->
     </div>
   </div>
 </div>
