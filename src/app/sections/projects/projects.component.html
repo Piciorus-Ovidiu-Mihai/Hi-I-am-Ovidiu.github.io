@@ -1,12 +1,10 @@
-<div fxLayout="column" fxLayoutAlign="center" class="projects-container">
-    <h1>My personal projects</h1>
+<div fxLayout="column" fxLayoutAlign="center center" class="projects-container">
+    <h1>{{personalProjects.title}}</h1>
 
     <div fxLayout="row wrap">
-        <div class="project-card">
-    
-        </div>
-        <div class="project-card">
-    
+        <div *ngFor="let project of personalProjects.projects" class="project-card" fxLayout="column" fxLayoutAlign="center center">
+            <span>{{project.title}}</span>
+            <p>{{project.description}}</p>
         </div>
     </div>
 </div>

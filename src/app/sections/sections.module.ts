@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { OpenSourceComponent } from './open-source/open-source.component';
 import { FormsModule } from '@angular/forms';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     ProjectsComponent,
     OpenSourceComponent,
     ContactMeComponent,
+    EducationComponent,
   ],
   imports: [
     CommonModule,
@@ -34,6 +36,8 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     WorkExperienceComponent,
     ProjectsComponent,
     OpenSourceComponent,
+    ContactMeComponent,
+    EducationComponent
   ],
 })
 export class SectionsModule {}

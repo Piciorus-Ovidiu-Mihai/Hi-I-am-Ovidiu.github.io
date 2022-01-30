@@ -121,7 +121,31 @@ const personalProjects = {
       description: 'Gps',
     },
     {
+      title: 'Shop Management',
+      description: 'Gps',
+    },
+    {
       title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'Shop Management',
+      description: 'Gps',
+    },
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'GPS Tracker',
+      description: 'Gps',
+    },
+    {
+      title: 'Shop Management',
       description: 'Gps',
     },
     {
@@ -135,23 +159,57 @@ const openSourceProjects = {
   title: 'Open Source',
   projects: [
     {
-      title: 'GPS Tracker',
-      description: 'Gps',
+      title: 'Angular project generator',
+      description:
+        'It creates an angular application using angular-schematics with architecture',
     },
     {
-      title: 'GPS Tracker',
-      description: 'Gps',
+      title: 'Personal website template',
+      description:
+        'This is a personal website template, which can be use by everyone who wants a personal website',
+    },
+  ],
+};
+
+const educationSection = {
+  title: 'Education',
+  educationList: [
+    {
+      title: 'Tehnical University',
+      subTitle: 'Automatics and Applied Informatics',
+      dateRange: 'Oct 2018 - Jul 2021',
+      description: 'Enigneer',
     },
     {
-      title: 'GPS Tracker',
-      description: 'Gps',
+      title: 'Tehnical University',
+      subTitle: 'Automatics and Applied Informatics',
+      dateRange: 'Oct 2018 - Jul 2021',
+      description: 'Enigneer',
+    },
+    {
+      title: 'Tehnical University',
+      subTitle: 'Automatics and Applied Informatics',
+      dateRange: 'Oct 2018 - Jul 2021',
+      description: 'Enigneer',
+    },
+    {
+      title: 'Tehnical University',
+      subTitle: 'Automatics and Applied Informatics',
+      dateRange: 'Oct 2018 - Jul 2021',
+      description: 'Enigneer',
+    },
+    {
+      title: 'Tehnical University',
+      subTitle: 'Automatics and Applied Informatics',
+      dateRange: 'Oct 2018 - Jul 2021',
+      description: 'Enigneer',
     },
   ],
 };
 
 const contactMe = {
   title: 'Contact me',
-  description: "",
+  description: '',
   info: {
     phoneNumber: '0732378913',
     emailAddress: 'piciorus.ovidiu.mihai@gmail.com',
@@ -173,4 +231,6 @@ export {
   workExperienceSection,
   personalProjects,
   openSourceProjects,
+  contactMe,
+  educationSection
 };

@@ -1,5 +1,24 @@
-.open-source-container{
-    h1 {
-        color: aliceblue;
-    }
+@import "../../../_globalColor";
+
+.open-source-container {
+  padding-top: 2%;
+  h1 {
+    color: aliceblue;
+  }
+}
+
+.open-source-project-card {
+  width: 35vh;
+  height: 20vh;
+  background-color: $backgroundColorCard;
+  border: 1px solid $borderColor;
+  margin-top: 1%;
+
+  span {
+    color: $textColor;
+  }
+
+  p {
+    color: $textColor;
+  }
 }

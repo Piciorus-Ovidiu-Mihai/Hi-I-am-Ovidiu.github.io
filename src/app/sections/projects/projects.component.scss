@@ -1,12 +1,24 @@
+@import "../../../_globalColor";
+
 .projects-container {
   h1 {
-    color: aliceblue;
+    color: $textColorWhite;
   }
 }
 
-.project-card{
-    width: 350px;
-    height: 200px;
-    background-color: aliceblue;
-    margin-left: 20px;
+.project-card {
+  width: 35vh;
+  height: 20vh;
+  background-color: $backgroundColorCard;
+  border: 1px solid $borderColor;
+  margin-left: 1%;
+  margin-top: 1%;
+
+  span {
+    color: $textColor;
+  }
+
+  p {
+    color: $textColor;
+  }
 }

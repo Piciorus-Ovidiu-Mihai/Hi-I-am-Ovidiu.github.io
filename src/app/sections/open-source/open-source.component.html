@@ -1,3 +1,10 @@
-<div class="open-source-container">
-    <h1>My open-source projects</h1>
+<div fxLayout="column" fxLayoutAlign="center center" class="open-source-container">
+    <h1>{{openSourceProjects.title}}</h1>
+
+    <div fxLayout="row wrap" fxLayoutGap="10px">
+        <div class="open-source-project-card" *ngFor="let openSourceProject of openSourceProjects.projects" fxLayout="column" fxLayoutAlign="center center">
+            <span>{{openSourceProject.title}}</span>
+            <p>{{openSourceProject.description}}</p>    
+        </div>
+    </div>
 </div>

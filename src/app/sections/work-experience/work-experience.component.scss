@@ -9,8 +9,10 @@
 .work-experience-card {
   width: 40vh;
   height: 40vh;
-  border: 5px solid white;
+  border: 1px solid $borderColor;
   text-align: center;
+  background-color: $cardWorkExperienceColor;
+  border-radius: 10px;
 
   h1 {
     padding-bottom: 20%;
