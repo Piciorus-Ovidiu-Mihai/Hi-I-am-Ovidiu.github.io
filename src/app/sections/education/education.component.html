@@ -1,4 +1,22 @@
-<div fxLayout="column" fxLayoutAlign="start" class="education-container">
+<div class="education-container" fxLayout="column" fxLayoutAlign="start">
+  <h1>{{ educationSection.title }}</h1>
+  <div class="timeline">
+    <ul>
+      <li *ngFor="let item of educationSection.educationList">
+          <span>{{ item.dateRange }}</span>
+          <div class="content">
+            <h2>{{ item.title }}</h2>
+            <h3> {{ item.subTitle }}</h3>
+          <p>
+            {{ item.description }}
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- <div fxLayout="column" fxLayoutAlign="start" class="education-container">
     <h1>{{educationSection.title}}</h1>
     <div *ngFor="let educationItem of educationSection.educationList" fxLayout="row" fxLayoutGap="1%">
         <img src="../../../assets/photos/utcn-logo.jpg">
@@ -9,4 +27,4 @@
             <h4>{{educationItem.description}}</h4>
         </div>
     </div>
-</div>
+</div> -->

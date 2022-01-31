@@ -1,7 +1,7 @@
-<div class="contact-me-container" fxLayout="column" fxLayoutAlign="start">
+<div class="contact-me-container" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="2%">
   <h1>{{ contactMe.title }}</h1>
   <h2>{{ contactMe.description }}</h2>
-  <i class="fas fa-map-marker-alt"> {{ contactMe.info.location }}</i>
+  <i class="fas fa-map-marker-alt location"> {{ contactMe.info.location }}</i>
   <div fxLayout="row" fxLayoutGap="2%">
     <i (click)="goToGithub()" class="fab fa-github icon-link github"></i>
     <i (click)="goToLinkedin()" class="fab fa-linkedin icon-link linkedin"></i>

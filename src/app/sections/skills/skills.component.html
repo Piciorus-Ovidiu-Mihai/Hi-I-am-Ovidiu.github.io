@@ -1,12 +1,12 @@
-<div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="center">
+<div fxLayout="row wrap" fxLayoutGap="4%" fxLayoutAlign="center">
   <div fxFlex>
-    <img src="../../../assets/photos/skills.PNG" />
+    <img style="width: 50wh;" src="../../../assets/photos/skills.PNG" />
   </div>
   <div class="skills-container" fxFlex fxLayout="column" fxLayoutGap="2%" fxLayoutAlign="start">
-    <h1>{{skills.title}}</h1>
+    <h1>{{skillsSection.title}}</h1>
 
     <p class="short-description">
-      {{skills.subTitle}}
+      {{skillsSection.subTitle}}
     </p>
 
     <div class="icons-skills-list" fxLayout="row wrap" fxLayoutGap="4%" fxLayout="center center">
@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="skills-list" *ngFor="let item of skills.skillsList" fxLayout="row" fxLayoutGap="2%">
+    <div class="skills-list" *ngFor="let item of skillsSection.skillsList" fxLayout="row" fxLayoutGap="2%">
       <i class="fas fa-bolt list-pointer"></i>
       <span>{{item.info}}</span>
     </div>

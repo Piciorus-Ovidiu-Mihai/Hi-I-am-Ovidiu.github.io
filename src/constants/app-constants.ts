@@ -48,7 +48,7 @@ const gmailLink =
   'https://mail.google.com/mail/?view=cm&fs=1&to=piciorus.ovidiu.mihai@gmail.com';
 const githubLink = 'https://github.com/Piciorus-Ovidiu-Mihai';
 
-const skills = {
+const skillsSection = {
   title: 'What I do ?',
   subTitle: 'FULL-STACK DEVELOPER WHO LIKES TO BUILD SCALABLE WEB APPLICATION',
   skillsList: [
@@ -94,7 +94,7 @@ const workExperienceSection = {
   ],
 };
 
-const personalProjects = {
+const personalProjectsSection = {
   title: 'Personal Projects',
   projects: [
     {
@@ -191,9 +191,9 @@ export {
   linkedinLink,
   gmailLink,
   githubLink,
-  skills,
+  skillsSection,
   workExperienceSection,
-  personalProjects,
+  personalProjectsSection,
   openSourceProjects,
   contactMe,
   educationSection,

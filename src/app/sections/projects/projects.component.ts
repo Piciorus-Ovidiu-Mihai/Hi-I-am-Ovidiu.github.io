@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { personalProjects } from 'src/constants/app-constants';
+import { personalProjectsSection } from 'src/constants/app-constants';
 
 @Component({
   selector: 'app-projects',
@@ -7,5 +7,5 @@ import { personalProjects } from 'src/constants/app-constants';
   styleUrls: ['./projects.component.scss'],
 })
 export class ProjectsComponent {
-  personalProjects = personalProjects;
+  personalProjectsSection = personalProjectsSection;
 }
