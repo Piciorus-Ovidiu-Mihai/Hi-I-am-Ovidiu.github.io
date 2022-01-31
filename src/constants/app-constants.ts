@@ -78,7 +78,7 @@ const workExperienceSection = {
       title: 'AROBS Software',
       description:
         'During this mentoring program I learned about .NET technologies. I learned how to build an application in a team. We developed a client in ASP.NET MVC Core with an email services and a library with models and for the connection with database we used an API. This application is made for completing and creating surveys of people who are trying different medical treatments.',
-      timeRange: 'Jul 2021 - Aug 2022',
+      timeRange: 'Jul 2020 - Aug 2020',
       jobTitle: '.NET FULL-STACK',
       jobColor: '#6FC05D',
     },
@@ -86,15 +86,15 @@ const workExperienceSection = {
       title: 'The Code Crowd',
       description:
         'I was involved in the entire process of development for several enterprise projects that optimize the repetitive processes. During this job I was able to communicate directly with the client, design the arhitecture, the models and find the best solutions for their business.',
-      timeRange: 'Jul 2021 - Aug 2022',
+      timeRange: 'Jan 2021 - Oct 2021',
       jobTitle: 'FULL-STACK DEVELOPER',
       jobColor: '#6cbaa6',
     },
     {
       title: 'GEP Worldwide',
       description:
-        'Developed new modules on a low-code platform aimed at simplifying the development process and reducing the delivery time. I implemented a BPMN graphic designer that transforms complex business processes into visual and intuitive workflows. I created low-code reusable UI components that are consumed through a client-centric and zero downtime platform.',
-      timeRange: 'Jul 2021 - Aug 2022',
+        'Developed new modules on a low-code platform aimed at simplifying the development process and reducing the delivery time. I create low-code reusable UI components that are consumed through a client-platform.',
+      timeRange: 'Nov 2021 - Present',
       jobTitle: 'ASSOCIATE SOFTWARE ENGINEER',
       jobColor: '#006BAB',
     },
@@ -112,7 +112,7 @@ const personalProjectsSection = {
     {
       title: 'Shop Management',
       description:
-        'The app’s main purpose is to connect the main store chains to their clients in a more efficient and time saving way. It serves as a digital portal between the buyers and the actual physical store, and the whole package of functionalities of an online store, such as a cart to place your products, descriptions and reviews, a home page, a contact page, and an order history page.',
+        'The app’s main purpose is to connect the main store chains to their clients in a more efficient and time saving way. It serves as a digital portal between the buyers and the actual physical store, and the whole package of functionalities of an online store.',
     },
     {
       title: 'Immunisation Trial',

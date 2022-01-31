@@ -1,11 +1,11 @@
 @import "../../../_globalColor";
 
-.education-container{
+.education-container {
   margin-left: 6%;
   margin-bottom: 10%;
 }
 
-h1{
+h1 {
   color: $textColorWhite;
   font-size: xxx-large;
   font-family: $titlesFont;
@@ -40,16 +40,23 @@ h1{
   border-radius: 25px;
   padding: 2px 5px;
   font-size: 15px;
+  font-family: $titlesFont;
+  font-weight: bold;
   text-align: center;
+}
+.h2 {
+  font-family: $titlesFont;
 }
 .timeline ul li .content h3 {
   color: #34ace0;
   font-size: 17px;
   padding-top: 5px;
+  font-family: $titlesFont;
 }
 .timeline ul li .content p {
   padding: 5px 0px 15px 0px;
   font-size: 15px;
+  font-family: $textFont;
 }
 .timeline ul li:before {
   position: absolute;
@@ -63,15 +70,14 @@ h1{
   transition: 0.5s;
 }
 .timeline ul li:hover {
-  background-color: #071f2a;
+  background-color: #073246;
 }
 .timeline ul li:hover:before {
-  background-color: #0f0;
-  box-shadow: 0px 0px 10px 2px #0f0;
+  background-color: rgb(0, 183, 255);
+  box-shadow: 0px 0px 10px 2px rgb(0, 225, 255);
 }
 
-.sub-title{
-  
+.sub-title {
 }
 
 @media (max-width: 300px) {
@@ -84,8 +90,6 @@ h1{
     font-size: 15px;
   }
 }
-
-
 
 // .education-container {
 //   margin-left: 5%;

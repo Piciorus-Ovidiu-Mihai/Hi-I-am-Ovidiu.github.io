@@ -1,30 +1,23 @@
-<div class="education-container" fxLayout="column" fxLayoutAlign="start">
-  <h1>{{ educationSection.title }}</h1>
-  <div class="timeline">
-    <ul>
-      <li *ngFor="let item of educationSection.educationList">
+<div fxLayout="row" fxLayoutGap="4%">
+  <div class="education-container" fxLayout="column" fxLayoutAlign="start">
+    <h1>{{ educationSection.title }}</h1>
+    <div class="timeline">
+      <ul>
+        <li *ngFor="let item of educationSection.educationList">
           <span>{{ item.dateRange }}</span>
           <div class="content">
             <h2>{{ item.title }}</h2>
-            <h3> {{ item.subTitle }}</h3>
-          <p>
-            {{ item.description }}
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<!-- <div fxLayout="column" fxLayoutAlign="start" class="education-container">
-    <h1>{{educationSection.title}}</h1>
-    <div *ngFor="let educationItem of educationSection.educationList" fxLayout="row" fxLayoutGap="1%">
-        <img src="../../../assets/photos/utcn-logo.jpg">
-        <div class="education-info-container">
-            <h1>{{educationItem.title}}</h1>
-            <h2>{{educationItem.subTitle}}</h2>
-            <h3>{{educationItem.dateRange}}</h3>
-            <h4>{{educationItem.description}}</h4>
-        </div>
+            <h3>{{ item.subTitle }}</h3>
+            <p>
+              {{ item.description }}
+            </p>
+          </div>
+        </li>
+      </ul>
     </div>
-</div> -->
+  </div>
+  <img
+    style="width: 40%; height: 40%; padding-top: 14%"
+    src="../../../assets/education.PNG"
+  />
+</div>

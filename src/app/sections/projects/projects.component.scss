@@ -28,13 +28,15 @@
   p {
     color: $textColor;
     padding-left: 2%;
+    font-family: $textFont;
+    font-size: small;
   }
 }
 
-.project-card:hover{
-  background-color: #0077B5;
+.project-card:hover {
+  background-color: #0077b5;
 }
 
 .hover-card:hover {
-  color: #0077B5;
+  color: #0077b5;
 }
