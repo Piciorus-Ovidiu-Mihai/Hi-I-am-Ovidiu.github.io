@@ -2,8 +2,14 @@
 
 .open-source-container {
   padding-top: 2%;
+  margin-bottom: 10%;
+  margin-left: 6%;
+  margin-right: 6%;
   h1 {
-    color: aliceblue;
+    color: $textColorWhite;
+    font-size: xxx-large;
+    font-family: $titlesFont;
+    margin-bottom: 2%;
   }
 }
 

@@ -1,8 +1,13 @@
 @import "../../../_globalColor";
 
 .work-experience-container {
+  margin-bottom: 10%;
   h1 {
+    margin-top: 5%;
     color: $textColorWhite;
+    font-size: xxx-large;
+    font-family: $titlesFont;
+    margin-bottom: 2%;
   }
 }
 
@@ -14,10 +19,6 @@
   background-color: $darkBackground;
   border-radius: 10px;
  
-  h1 {
-    padding-bottom: 20%;
-  }
-
   h3 {
     color: $textColorWhite;
   }
