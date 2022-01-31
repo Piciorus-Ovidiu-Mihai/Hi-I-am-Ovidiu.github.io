@@ -18,7 +18,7 @@
   text-align: center;
   background-color: $darkBackground;
   border-radius: 10px;
- 
+
   h3 {
     color: $textColorWhite;
   }
@@ -35,17 +35,16 @@
   }
 }
 
-
 .experience-banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
   background: $experienceCardBannerLG;
   border-radius: 10px 10px 0px 0px;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
+  // -webkit-filter: blur(0px);
+  // -moz-filter: blur(0px);
+  // -o-filter: blur(0px);
+  // -ms-filter: blur(0px);
   filter: blur(0px);
   height: 11rem;
   display: flex;
@@ -55,12 +54,6 @@
 
 .experience-blurred_div {
   position: absolute;
-  background: $experienceCardBlurredDivLG;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
   height: 11rem;
   top: 0;
   left: 0;
@@ -80,7 +73,8 @@
   justify-content: center;
 }
 
-.icon{
+.icon {
+  background-color: black;
   font-size: 50px;
   position: absolute;
   align-self: center;
@@ -92,6 +86,24 @@
   margin-right: auto;
   width: 8rem;
   height: 8rem;
-  box-shadow: 0 0.5rem 1rem red;
+  box-shadow: 0 0.5rem 1rem gray;
   border-radius: 50%;
+}
+
+.company-name {
+  color: $textColorWhite;
+  font-size: xx-large;
+}
+
+.info-container {
+  margin-top: 6%;
+  font-family: $textFont;
+  span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  h3{
+    font-weight:normal;
+  }
 }

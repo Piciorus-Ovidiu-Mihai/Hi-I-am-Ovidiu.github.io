@@ -11,16 +11,17 @@
       class="work-experience-card"
     >
       <div class="experience-banner">
-        <div class="experience-blurred_div"></div>
+        <div class="experience-blurred_div" [ngStyle]="{'background-color': card.jobColor}"></div>
         <div class="experience-div-company">
-          <h5 class="experience-text-company">{{card.title}}</h5>
+          <h2 class="company-name">{{card.title}}</h2>
         </div>
-
-        <i class="fas fa-code icon"></i>
+        <!-- <i class="fas fa-briefcase icon"></i> -->
       </div>
-      <!-- <h3>{{ card.timeRange }}</h3>
-      <span>{{ card.jobTitle }}</span>
-      <p>{{ card.description }}</p> -->
+      <div class="info-container">
+        <span>{{ card.jobTitle }}</span>
+        <h3>{{ card.timeRange }}</h3>
+        <p>{{ card.description }}</p>
+      </div>
     </div>
   </div>
 </div>
