@@ -12,4 +12,8 @@ export class HeaderComponent {
   getHref(ref: string){
     return `#${ref}`;
   }
+
+  toggleMobileMenu(menu: any) {
+    menu.classList.toggle('open');
+  }
 }
