@@ -63,3 +63,14 @@
     cursor: pointer;
   }
 }
+
+.about-me-image {
+  width: 40vw;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .about-me-image {
+    width: 40vh;
+  }
+}
