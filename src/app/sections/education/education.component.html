@@ -1,5 +1,5 @@
-<div fxLayout="row wrap" fxLayoutGap="4%">
-  <div class="education-container" fxLayout="column" fxLayoutAlign="start">
+<div fxLayout="row wrap" fxLayoutGap="2%" fxLayout="row wrap" fxLayout="center center" fxLayout.xs="column">
+  <div fxFlex class="education-container" fxLayout="column" fxLayoutAlign="start">
     <h1>{{ educationSection.title }}</h1>
     <div class="timeline">
       <ul>
@@ -16,5 +16,7 @@
       </ul>
     </div>
   </div>
-  <img style="width: 55vh; height: 400px" src="assets/education.PNG" />
+  <div fxFlex fxLayout="row" fxLayoutAlign="center center">
+    <img class="education-image" src="assets/education.PNG" />
+  </div>
 </div>

@@ -4,7 +4,7 @@
   fxLayoutAlign="center center"
 >
   <h1>{{ workExperience.title }}</h1>
-  <div fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="3%">
+  <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="3%">
     <div
       fxLayout="column"
       *ngFor="let card of workExperience.jobsInfo"

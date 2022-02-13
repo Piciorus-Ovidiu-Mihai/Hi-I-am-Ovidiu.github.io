@@ -1,7 +1,7 @@
 @import "../../../_globalColor";
 
 .education-container {
-  margin-left: 6%;
+  margin-left: 2%;
   margin-bottom: 10%;
 }
 
@@ -16,7 +16,7 @@ h1 {
   width: 800px;
   background-color: $containerBackgroundColor;
   color: #fff;
-  padding: 30px 20px;
+  // padding: 30px 20px;
   //box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .timeline ul {
@@ -77,37 +77,29 @@ h1 {
   box-shadow: 0px 0px 10px 2px rgb(0, 225, 255);
 }
 
-.sub-title {
-}
-
-@media (max-width: 300px) {
+@media (max-width: 768px) {
   .timeline {
     width: 100%;
-    padding: 30px 5px 30px 10px;
+    margin-right: 2%;
   }
   .timeline ul li .content h3 {
     color: #34ace0;
+    margin-right: 2%;
     font-size: 15px;
   }
 }
 
-// .education-container {
-//   margin-left: 5%;
-//   h1 {
-//     color: $textColorWhite;
-//   }
+.education-image {
+  width: 45vw;
+  height: auto;
+  max-height: 60vh;
+}
 
-//   img {
-//     border-radius: 50%;
-//     width: 5%;
-//   }
-// }
-
-// .education-info-container {
-//   h1 {
-//     color: $textColorWhite;
-//   }
-//   h2 {
-//     color: $textColorWhite;
-//   }
-// }
+@media (max-width: 768px) {
+  .education-image {
+    width: 90vw;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: auto;
+  }
+}
