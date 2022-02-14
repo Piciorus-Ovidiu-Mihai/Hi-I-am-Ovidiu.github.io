@@ -12,14 +12,15 @@
       font-size: 1.7em;
       font-family: $textFont;
       font-weight: lighter;
-      padding-bottom: 2%;
+      padding-bottom: 2%; 
     }
   }
 
   button {
+    margin-left: 2%;
     margin-top: 2%;
-    width: 30%;
-    height: 10%;
+    width: 200px;
+    height: 40px;
     background-color: $resumeButtonColor;
     border-radius: 10px;
     color: $textColorWhite;
