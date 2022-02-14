@@ -14,12 +14,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [CoreComponent, MainComponent, HeaderComponent, MainComponent],
   imports: [
     CommonModule,
     CoreRoutingModule,
+    FormsModule,
     SectionsModule,
     FlexLayoutModule,
     MatMenuModule,

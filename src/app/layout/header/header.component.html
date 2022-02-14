@@ -18,11 +18,11 @@
     <span class="grey-color">/&gt;</span>
   </a>
   <ul class="nav-links">
-    <input type="checkbox" id="checkbox_toggle" />
+    <input [(ngModel)]="isChecked" type="checkbox" id="checkbox_toggle" />
     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-    <div class="menu">
-      <li *ngFor="let item of headerMenuButtons;">
-        <a href="#{{item.ref}}">{{item.title}}</a>
+    <div class="menu" id="menu">
+      <li id="hide" *ngFor="let item of headerMenuButtons;">
+        <a (click)="closeMenu()" href="#{{item.ref}}">{{item.title}}</a>
       </li>
     </div>
   </ul>

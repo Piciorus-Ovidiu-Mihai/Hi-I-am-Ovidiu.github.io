@@ -8,12 +8,17 @@ import { developerTitleName, headerMenuButtons } from 'src/constants/app-constan
 export class HeaderComponent {
   developerName = developerTitleName.name;
   headerMenuButtons = headerMenuButtons;
+  isChecked = false;
 
   getHref(ref: string){
     return `#${ref}`;
   }
-
+  
   toggleMobileMenu(menu: any) {
     menu.classList.toggle('open');
+  }
+
+  closeMenu(){
+    this.isChecked = false;
   }
 }
