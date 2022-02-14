@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { developerTitleName, headerMenuButtons } from 'src/constants/app-constants';
 @Component({
   selector: 'app-header',
