@@ -5,16 +5,25 @@
   fxLayout.xs="column"
 >
   <h1>{{ workExperience.title }}</h1>
-  <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="1%">
+  <div
+    fxLayout="row"
+    fxLayout.xs="column"
+    fxLayoutAlign="center center"
+    fxLayoutGap="1%"
+  >
     <div
       fxLayout="column"
       *ngFor="let card of workExperience.jobsInfo"
       class="work-experience-card"
+      fxLayoutAlign="2px"
     >
       <div class="experience-banner">
-        <div class="experience-blurred_div" [ngStyle]="{'background-color': card.jobColor}"></div>
+        <div
+          class="experience-blurred_div"
+          [ngStyle]="{ 'background-color': card.jobColor }"
+        ></div>
         <div class="experience-div-company">
-          <h2 class="company-name">{{card.title}}</h2>
+          <h2 class="company-name">{{ card.title }}</h2>
         </div>
       </div>
       <div class="info-container">
