@@ -29,8 +29,10 @@
   p {
     color: $textColor;
     padding-left: 2%;
+    padding-right: 2%;
     font-family: $textFont;
     font-size: small;
+    overflow: hidden;
   }
 }
 
@@ -40,4 +42,12 @@
 
 .hover-card:hover {
   color: #0077b5;
+}
+
+
+@media (max-width: 768px) {
+  .project-card{
+    width: 90vw;
+    height: auto;
+  }
 }

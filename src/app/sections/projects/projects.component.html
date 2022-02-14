@@ -1,8 +1,8 @@
 <div fxLayout="column" fxLayoutAlign="center" class="projects-container">
     <h1>{{personalProjectsSection.title}}</h1>
 
-    <div fxLayout="row wrap" fxLayoutGap="1%" fxLayoutAlign="center">
-        <div *ngFor="let project of personalProjectsSection.projects" fxLayout="column" fxLayoutAlign="center center">
+    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="1%">
+        <div *ngFor="let project of personalProjectsSection.projects" fxLayout="column">
             <div class="project-card" fxLayout="column" fxLayoutAlign="start">
                 <h1>{{project.title}}</h1>
                 <p>{{project.description}}</p>
