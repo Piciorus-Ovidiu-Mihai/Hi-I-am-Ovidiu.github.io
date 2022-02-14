@@ -2,17 +2,18 @@
 
 .work-experience-container {
   margin-bottom: 10%;
+  margin-left: 2%;
   h1 {
     margin-top: 5%;
+    margin-bottom: 2%;
     color: $textColorWhite;
     font-size: xxx-large;
     font-family: $titlesFont;
-    margin-bottom: 2%;
   }
 }
 
 .work-experience-card {
-  width: 60vh;
+  width: 25vw;
   height: 50vh;
   border: 1px solid $borderColor;
   text-align: center;
@@ -41,10 +42,6 @@
   background-size: 150%;
   background: $experienceCardBannerLG;
   border-radius: 10px 10px 0px 0px;
-  // -webkit-filter: blur(0px);
-  // -moz-filter: blur(0px);
-  // -o-filter: blur(0px);
-  // -ms-filter: blur(0px);
   filter: blur(0px);
   height: 11rem;
   display: flex;
@@ -111,5 +108,12 @@
 
   p {
     font-family: $textFont;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-experience-card{
+    width: 90vw;
+    height: auto;
   }
 }
