@@ -21,10 +21,14 @@
         <div
           class="experience-blurred_div"
           [ngStyle]="{ 'background-color': card.jobColor }"
-        ></div>
-        <div class="experience-div-company">
-          <h2 class="company-name">{{ card.title }}</h2>
+        >
+          <div class="company" fxLayout="column" fxLayoutAlign="center center">
+            <h2 class="company-name">{{ card.title }}</h2>
+          </div>
         </div>
+        <!-- <div class="experience-div-company">
+          <h2 class="company-name">{{ card.title }}</h2>
+        </div> -->
       </div>
       <div class="info-container">
         <span>{{ card.jobTitle }}</span>
