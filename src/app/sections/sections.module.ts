@@ -8,7 +8,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { OpenSourceComponent } from './open-source/open-source.component';
 import { FormsModule } from '@angular/forms';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { EducationComponent } from './education/education.component';
@@ -19,7 +18,6 @@ import { EducationComponent } from './education/education.component';
     SkillsComponent,
     WorkExperienceComponent,
     ProjectsComponent,
-    OpenSourceComponent,
     ContactMeComponent,
     EducationComponent,
   ],
@@ -35,7 +33,6 @@ import { EducationComponent } from './education/education.component';
     SkillsComponent,
     WorkExperienceComponent,
     ProjectsComponent,
-    OpenSourceComponent,
     ContactMeComponent,
     EducationComponent
   ],

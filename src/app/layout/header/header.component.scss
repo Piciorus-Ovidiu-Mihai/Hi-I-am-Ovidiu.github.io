@@ -84,6 +84,11 @@ input[type="checkbox"] {
   user-select: none;
 }
 
+.developer-name{
+  font-family: 'Great Vibes';
+  font-size: 30px;
+}
+
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -116,27 +121,4 @@ input[type="checkbox"] {
   .dropdown li:hover {
     background-color: #4c9e9e;
   }
-}
-
-.logo {
-  display: block;
-  flex: none;
-  float: left;
-  font-size: 1.9em;
-  text-decoration: none;
-  margin-top: 10px;
-  line-height: normal;
-}
-
-.logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
-  color: $developerNameColor;
-}
-
-.grey-color {
-  color: $bracketColor;
 }
