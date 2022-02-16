@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { FormsModule } from '@angular/forms';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { EducationComponent } from './education/education.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [

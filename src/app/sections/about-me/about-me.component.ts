@@ -1,16 +1,42 @@
-import { Component, OnInit } from '@angular/core';
-import { FaConfig } from '@fortawesome/angular-fontawesome';
+import { animate, style, transition, trigger } from '@angular/animations';
+import { Component } from '@angular/core';
 import {
-  faFacebook,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
-import { aboutMeSection, facebookLink, githubLink, gmailLink, linkedinLink } from 'src/constants/app-constants';
+import {
+  aboutMeSection,
+  facebookLink,
+  githubLink,
+  gmailLink,
+  linkedinLink,
+} from 'src/constants/app-constants';
 
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
   styleUrls: ['./about-me.component.scss'],
+  animations: [
+    trigger('enterAboutMe', [
+      transition(':enter', [
+        style({ opacity: 0, transform: 'translateX(-200px)' }),
+        animate(
+          '500ms ease-in',
+          style({ opacity: 1, transform: 'translateX(0)' })
+        ),
+      ]),
+    ]),
+
+    trigger('enterImage', [
+      transition(':enter', [
+        style({ opacity: 0, transform: 'translateX(200px)' }),
+        animate(
+          '500ms ease-in',
+          style({ opacity: 1, transform: 'translateX(0)' })
+        ),
+      ]),
+    ]),
+  ],
 })
 export class AboutMeComponent {
   github = faGithub;
@@ -33,7 +59,7 @@ export class AboutMeComponent {
     window.open(gmailLink);
   }
 
-  goToMyResume(){
+  goToMyResume() {
     window.open(aboutMeSection.resumeLink);
   }
 }
