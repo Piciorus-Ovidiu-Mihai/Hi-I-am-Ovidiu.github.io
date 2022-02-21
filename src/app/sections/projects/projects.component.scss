@@ -36,6 +36,30 @@
   }
 }
 
+.languages-list {
+  color: yellow;
+}
+
+.dot{
+  background-color: yellow;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.language-name{
+  margin-left: 5px;
+}
+
+.percentage{
+  color: yellow;
+}
+
+.list-group{
+  
+}
+
 .project-card:hover {
   background-color: #0077b5;
 }
@@ -44,9 +68,8 @@
   color: #0077b5;
 }
 
-
 @media (max-width: 768px) {
-  .project-card{
+  .project-card {
     width: 90vw;
     height: auto;
   }

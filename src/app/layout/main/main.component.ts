@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GithubProjectsService } from 'src/app/services/github-projects.service';
 
 @Component({
   selector: 'app-main',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  constructor(private githubService: GithubProjectsService) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    const res = await this.githubService.getProgrammingLanguage();
+    console.log(res);
   }
 
 }
