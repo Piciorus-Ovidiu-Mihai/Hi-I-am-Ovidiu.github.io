@@ -1,5 +1,5 @@
 import { animate, style, transition, trigger } from '@angular/animations';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {
   faGithub,
   faLinkedin,
@@ -11,32 +11,12 @@ import {
   gmailLink,
   linkedinLink,
 } from 'src/constants/app-constants';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
   styleUrls: ['./about-me.component.scss'],
-  animations: [
-    trigger('enterAboutMe', [
-      transition(':enter', [
-        style({ opacity: 0, transform: 'translateX(-200px)' }),
-        animate(
-          '500ms ease-in',
-          style({ opacity: 1, transform: 'translateX(0)' })
-        ),
-      ]),
-    ]),
-
-    trigger('enterImage', [
-      transition(':enter', [
-        style({ opacity: 0, transform: 'translateX(200px)' }),
-        animate(
-          '500ms ease-in',
-          style({ opacity: 1, transform: 'translateX(0)' })
-        ),
-      ]),
-    ]),
-  ],
 })
 export class AboutMeComponent {
   github = faGithub;

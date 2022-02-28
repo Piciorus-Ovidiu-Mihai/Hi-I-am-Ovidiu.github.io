@@ -1,5 +1,5 @@
 <div class="about-me-container" fxLayoutAlign="center center" fxLayout="row" fxLayout.xs="column" fxLayoutGap="10%">
-  <div @enterAboutMe fxFlex fxLayout="column">
+  <div fxFlex fxLayout="column" data-aos="fade-right">
     <h1>{{ aboutMeSection.title }} 👋</h1>
     <div class="description-container" fxLayout="column">
       <span>{{ aboutMeSection.description }}</span>
@@ -20,7 +20,7 @@
       {{ aboutMeSection.buttonTittle }}
     </button>
   </div>
-  <div @enterImage fxFlex fxFlexOrder.xs="2">
+  <div data-aos="fade-left" fxFlex fxFlexOrder.xs="2">
     <img class="about-me-image" src="assets/hello.PNG" alt="Image description"/>
   </div>
 </div>

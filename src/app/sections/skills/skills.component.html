@@ -1,4 +1,4 @@
-<div @enterSkillsInfo class="skills-container" fxLayout="row" fxLayout.xs="column" fxLayoutGap="4%" fxLayoutAlign="center">
+<div data-aos="fade-left" class="skills-container" fxLayout="row" fxLayout.xs="column" fxLayoutGap="4%" fxLayoutAlign="center">
   <div fxFlex fxFlexOrder.xs="2">
     <img class="skills-image" src="assets/skills.PNG" />
   </div>
@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="skills-list" *ngFor="let item of skillsSection.skillsList" fxLayout="row" fxLayoutGap="2%">
+    <div data-aos="fade-right" class="skills-list" *ngFor="let item of skillsSection.skillsList" fxLayout="row" fxLayoutGap="2%">
       <i class="fas fa-bolt list-pointer"></i>
       <span>{{item.info}}</span>
     </div>

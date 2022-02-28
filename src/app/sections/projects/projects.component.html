@@ -1,4 +1,4 @@
-<div fxLayout="column" fxLayoutAlign="center" class="projects-container">
+<div fxLayout="column" fxLayoutAlign="center" class="projects-container" data-aos="flip-left">
   <h1>{{ personalProjectsSection.title }} 📀</h1>
 
   <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="1%">
@@ -11,12 +11,14 @@
         <p>{{ project.description }}</p>
         <div
           fxLayout="row"
-          class="languages-list"
           fxLayoutAlign="start center"
+          fxLayoutGap="4%"
+          class="programming-languages"
         >
-          <div class="list-group" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center" *ngFor="let item of listOfProgrammingLanguages | keyvalue">
-            <div class="dot"></div>
-            <span class="language-name">{{ item.key }}</span>
+          <div fxLayout="row" fxLayoutAlign="center center" *ngFor="let item of listOfProgrammingLanguages | keyvalue">
+            <div class="language-color" [ngStyle]="{'background-color': colorBasedOnString(item.key)}">
+            </div>
+            <p class="language-text">{{item.key}}</p>
           </div>
         </div>
       </div>
