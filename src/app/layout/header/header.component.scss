@@ -29,6 +29,7 @@ li {
 
 .menu {
   display: flex;
+  z-index: 2;
   gap: 1em;
   font-size: 18px;
 }
