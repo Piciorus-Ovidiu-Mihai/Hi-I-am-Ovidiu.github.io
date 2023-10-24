@@ -95,7 +95,7 @@ const workExperienceSection = {
       description:
         'Developed new modules on a low-code platform aimed at simplifying the development process and reducing the delivery time. I create low-code reusable UI components that are consumed through a client-platform.',
       timeRange: 'Nov 2021 - Present',
-      jobTitle: 'ASSOCIATE SOFTWARE ENGINEER',
+      jobTitle: 'SENIOR SOFTWARE ENGINEER',
       jobColor: '#006BAB',
     },
   ],
